@@ -1,3 +1,34 @@
+function clicou(){
+    document.getElementById("Agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    //console.log(document.getElementById("Agradecimento"));
+    //alert("Obrigado por clicar");
+}
+
+function redirecionar(){
+    window.open("https://www.youtube.com/watch?v=-bWqcKzbQBY&ab_channel=3wayAsiska")
+    //window.location.href = "https://www.youtube.com/watch?v=-bWqcKzbQBY&ab_channel=3wayAsiska";
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Cocô"
+    //document.getElementById("mousemove").innerHTML = "Cocô";
+    //alert("Trocar texto")
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui"
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("Página Carregada")
+}
+
+function funcaochange(elemento){
+    console.log(elemento.value)
+}
+
+/*
 function soma(n1,n2){
     return n1 + n2;
 }
@@ -17,7 +48,7 @@ var idade = prompt("Qual sua idade?");
 console.log(validaIdade(idade));
 //alert(soma(5, 10));
 
-
+*/
 /*
 
 var d = new Date();
