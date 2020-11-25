@@ -1,9 +1,14 @@
-var nome = "Elton Guilherme";
-var idade = 18;
-var idade2 = 10;
-var frase = "Japão é o melhor time do mundo";
-//alert(idade + idade2)
-//alert(nome + " Tem " + idade + " Anos");
-console.log(nome);
-console.log(idade * idade2);
-console.log(frase.toUpperCase());
+var frutas = [{nome:"Maçã", cor:"Vermelha"}, {nome:"Uva", cor:"Roxa"}]
+console.log(frutas);
+alert(frutas[1].cor);
+
+//var fruta = {nome:"Maçã", cor:"Vermelha"}
+//console.log(fruta.nome);
+
+//var lista = ["Maçã", "Toguro", "Hogh"];
+//console.log(lista[1]);
+//lista.push("Uva");
+//console.log(lista);
+//lista.pop();
+//console.log(lista.join(" e "));
+//alert(lista[0])
